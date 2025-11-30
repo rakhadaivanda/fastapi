@@ -15,7 +15,10 @@ def read_item(item_id: int, q: str = None):
     # item_id adalah parameter di path (harus berupa integer)
     # q adalah Query Parameter opsional (string)
     return {"item_id": item_id, "query": q, "message": "Detail Item"}
+<<<<<<< HEAD
 
+=======
+>>>>>>> 67f085fb14efeb8799d25fcbea15becc60d2c568
 
 # Membuat instance FastAPI
 app = FastAPI()
