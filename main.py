@@ -14,7 +14,7 @@ def read_root():
 def read_item(item_id: int, q: str = None):
     # item_id adalah parameter di path (harus berupa integer)
     # q adalah Query Parameter opsional (string)
-    return {"item_id": item_id, "query": q, "message": "Detail Item"}from fastapi import FastAPI
+    return {"item_id": item_id, "query": q, "message": "Detail Item"}
 
 # Membuat instance FastAPI
 app = FastAPI()
